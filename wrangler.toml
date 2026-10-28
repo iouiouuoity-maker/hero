@@ -1,0 +1,14 @@
+name = "hero360-ai-new"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hero360-class"
+database_id = "REPLACE_WITH_REAL_D1_DATABASE_ID"
+
+[vars]
+ALLOWED_ORIGIN = "https://YOUR_USERNAME.github.io"
